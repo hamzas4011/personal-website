@@ -1,66 +1,70 @@
-
+/* index.css or App.css */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #111;
-  color: white;
-  text-align: center;
+  scroll-behavior: smooth; /* Enables smooth scrolling */
 }
 
-.container {
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #4a90e2;
+}
+
+/* Sections */
+.section {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
+  text-align: center;
 }
 
-.title {
-  font-size: 3rem;
-  font-weight: bold;
-  color: #4a90e2;
+.intro {
+  background: linear-gradient(to right, #4a90e2, #1e3c72);
+  color: white;
 }
 
-.subtitle {
-  font-size: 1.2rem;
-  color: #aaa;
-  margin-top: 10px;
+.about {
+  background: #f4f4f4;
+  color: black;
 }
 
-.buttons {
-  margin-top: 20px;
-  display: flex;
-  gap: 15px;
+.projects {
+  background: white;
+  color: black;
 }
 
-.btn {
-  padding: 12px 24px;
-  font-size: 1rem;
-  font-weight: bold;
+.contact {
+  background: #222;
+  color: white;
+}
+
+.project-card {
+  background: white;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  display: inline-block;
-}
-
-.primary {
-  background-color: #4a90e2;
-  color: white;
-  box-shadow: 0 4px 10px rgba(74, 144, 226, 0.3);
-}
-
-.primary:hover {
-  background-color: #357ae8;
-}
-
-.secondary {
-  border: 2px solid #4a90e2;
-  color: #4a90e2;
-}
-
-.secondary:hover {
-  background-color: #4a90e2;
-  color: white;
 }
