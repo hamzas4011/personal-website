@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Intro.css"; 
 
-export default function Intro() {
+export function Intro() {
   return (
     <section id="intro" className="intro">
       <div className="intro-content">
@@ -18,3 +18,5 @@ export default function Intro() {
     </section>
   );
 }
+
+export default Intro;
