@@ -1,0 +1,31 @@
+/* Intro Section */
+.intro {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+  }
+  
+  .intro-content {
+    max-width: 700px;
+  }
+  
+  .intro h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .intro h2 {
+    font-size: 1.8rem;
+    margin-top: 10px;
+  }
+  
+  .intro p {
+    font-size: 1.2rem;
+    color: #ddd;
+    margin-top: 10px;
+  }
+  
