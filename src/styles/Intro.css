@@ -1,31 +1,105 @@
 /* Intro Section */
 .intro {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-    color: white;
-  }
-  
-  .intro-content {
-    max-width: 700px;
-  }
-  
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  padding: 20px;
+}
+
+.intro-content {
+  max-width: 700px;
+}
+
+/* Profile Picture */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid white;
+}
+
+/* Heading Styles */
+.intro h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.intro h2 {
+  font-size: 1.8rem;
+  margin-top: 10px;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  color: #ddd;
+  margin-top: 10px;
+}
+
+/* Buttons */
+.intro-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background-color: #00d4ff;
+  color: white;
+}
+
+.primary-btn:hover {
+  background-color: #0099cc;
+}
+
+.secondary-btn {
+  border: 2px solid #00d4ff;
+  color: #00d4ff;
+}
+
+.secondary-btn:hover {
+  background-color: #00d4ff;
+  color: white;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
   .intro h1 {
-    font-size: 3rem;
-    font-weight: bold;
+    font-size: 2.5rem;
   }
   
   .intro h2 {
-    font-size: 1.8rem;
-    margin-top: 10px;
+    font-size: 1.5rem;
   }
   
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+
   .intro p {
-    font-size: 1.2rem;
-    color: #ddd;
-    margin-top: 10px;
+    font-size: 1rem;
   }
-  
+
+  .intro-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
