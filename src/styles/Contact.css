@@ -1,0 +1,54 @@
+/* Contact Section */
+.contact {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #222;
+    padding: 50px 20px;
+  }
+  
+  .contact-content {
+    max-width: 600px;
+  }
+  
+  /* Heading */
+  .contact h2 {
+    font-size: 2.5rem;
+    color: #1e3c72;
+    margin-bottom: 15px;
+  }
+  
+  /* Contact Links */
+  .contact-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  /* Contact Item (Email & LinkedIn) */
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #1e3c72;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .contact-item:hover {
+    color: #0077b5; /* LinkedIn blue */
+  }
+  
+  /* Contact Icons */
+  .contact-icon {
+    font-size: 1.8rem;
+    color: #0077b5;
+  }
+  
