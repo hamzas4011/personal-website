@@ -56,11 +56,6 @@
     color: #0077b5;
     transition: transform 0.3s ease;
   }
-
-  .section-divider {
-    border-top: 2px solid #ddd;  /* Thin gray line */
-  }
-  
   
   .contact-icon:hover {
     transform: scale(1.2);
