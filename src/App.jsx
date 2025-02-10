@@ -2,7 +2,8 @@ import React from "react";
 import Intro from "./components/Intro";
 import About from "./components/About";
 import Projects from "./components/Projects";
-import "./App.css";
+import Contact from "./components/Contact";
+import "./App.css"; 
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Intro />
       <About />
       <Projects />
+      <Contact />
     </>
   );
 }
