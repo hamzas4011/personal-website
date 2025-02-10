@@ -10,18 +10,19 @@
   padding: 20px;
 }
 
+/* Content Container */
 .intro-content {
   max-width: 700px;
 }
 
-/* Profile Picture */
+/* Profile Picture (Bigger & Rounded) */
 .profile-pic {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 180px;  /* Increased size */
+  height: 180px;
+  border-radius: 50%; /* Perfectly round */
   object-fit: cover;
-  margin-bottom: 20px;
-  border: 3px solid white;
+  border: 4px solid white; /* Thicker border */
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3); /* Soft white glow */
 }
 
 /* Heading Styles */
@@ -79,27 +80,3 @@
   color: white;
 }
 
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-  .intro h1 {
-    font-size: 2.5rem;
-  }
-  
-  .intro h2 {
-    font-size: 1.5rem;
-  }
-  
-  .profile-pic {
-    width: 120px;
-    height: 120px;
-  }
-
-  .intro p {
-    font-size: 1rem;
-  }
-
-  .intro-buttons {
-    flex-direction: column;
-    gap: 10px;
-  }
-}
