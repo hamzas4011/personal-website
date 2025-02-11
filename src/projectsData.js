@@ -4,20 +4,14 @@ const projects = [
     {
       name: "Project 1",
       description: "A cool web app built with React and Node.js.",
-      liveLink: "https://project1.vercel.app",
-      githubLink: "https://github.com/username/project1",
+      liveLink: "https://coffee-shop-ivory-seven.vercel.app",
+      githubLink: "https://github.com/hamzas4011/coffee-shop",
     },
     {
       name: "Project 2",
       description: "An e-commerce site made with Next.js and Firebase.",
-      liveLink: "https://project2.vercel.app",
-      githubLink: "https://github.com/username/project2",
-    },
-    {
-      name: "Project 3",
-      description: "A portfolio site using React and Tailwind CSS.",
-      liveLink: "https://project3.vercel.app",
-      githubLink: "https://github.com/username/project3",
+      liveLink: "https://calculator-app-two-beta.vercel.app/",
+      githubLink: "https://github.com/hamzas4011/calculator-app",
     },
     {
       name: "Project 4",
