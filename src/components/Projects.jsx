@@ -6,7 +6,7 @@ export function Projects() {
   return (
     <section id="projects" className="projects">
       <div className="projects-content">
-        <h2>My Projects</h2>
+        <h2>Projects</h2>
         <div className="projects-list">
           {projects.map((project, index) => (
             <div key={index} className="project-card">
