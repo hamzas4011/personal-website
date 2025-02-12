@@ -14,16 +14,16 @@ const projects = [
       githubLink: "https://github.com/hamzas4011/calculator-app",
     },
     {
-      name: "Project 4",
+      name: "Typing Tester",
       description: "A Python-based CLI tool for data analysis.",
       liveLink: null,
-      githubLink: "https://github.com/username/project4",
+      githubLink: "https://github.com/hamzas4011/Typing_Tester",
     },
     {
-      name: "Project 5",
+      name: "Konya Restaurant",
       description: "A simple to-do app using React and LocalStorage.",
       liveLink: null,
-      githubLink: "https://github.com/username/project5",
+      githubLink: "https://github.com/hamzas4011/konyarestaurant",
     }
   ];
   
