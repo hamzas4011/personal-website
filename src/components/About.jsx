@@ -17,19 +17,15 @@ export function About() {
         <div className="about-icons">
           <div className="about-item">
             <FaLaptopCode className="icon" />
-            <span>Programming</span>
           </div>
           <div className="about-item">
             <FaBook className="icon" />
-            <span>Reading</span>
           </div>
           <div className="about-item">
             <FaGamepad className="icon" />
-            <span>Gaming</span>
           </div>
           <div className="about-item">
             <FaHiking className="icon" />
-            <span>Hiking</span>
           </div>
         </div>
       </div>
