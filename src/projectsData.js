@@ -24,13 +24,7 @@ const projects = [
       description: "A simple to-do app using React and LocalStorage.",
       liveLink: null,
       githubLink: "https://github.com/username/project5",
-    },
-    {
-      name: "Project 6",
-      description: "An API service built with Flask and MongoDB.",
-      liveLink: null,
-      githubLink: "https://github.com/username/project6",
-    },
+    }
   ];
   
   export default projects;
