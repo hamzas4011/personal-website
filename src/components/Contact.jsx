@@ -6,7 +6,7 @@ export function Contact() {
   return (
     <section id="contact" className="contact">
       <div className="contact-box">
-        <h2>Contact Me</h2>
+        <h2>Contact</h2>
         <p>Feel free to reach out via email or LinkedIn!</p>
 
         <div className="contact-links">
