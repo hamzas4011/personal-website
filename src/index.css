@@ -1,9 +1,19 @@
 
+html {
+  scroll-behavior: smooth;
+}
+
+.about,
+.projects,
+.contact {
+  padding-top: 80px;
+  scroll-padding-top: 80px;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
 }
 
 .navbar {
