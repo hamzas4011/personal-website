@@ -46,7 +46,7 @@
   gap: 15px;
 }
 
-.button {
+.intro-button {
   display: inline-block;
   padding: 12px 24px;
   font-size: 1rem;
@@ -57,11 +57,11 @@
   cursor: pointer;
 }
 
-.primary-btn {
+.intro-primary-btn {
   background-color: #00d4ff;
   color: white;
 }
 
-.primary-btn:hover {
+.intro-primary-btn:hover {
   background-color: #0099cc;
 }

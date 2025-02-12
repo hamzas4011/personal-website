@@ -14,11 +14,11 @@ export function Projects() {
               <p>{project.description}</p>
               <div className="project-links">
                 {project.liveLink && (
-                  <a href={project.liveLink} target="_blank" className="button primary-btn">
+                  <a href={project.liveLink} target="_blank" className="project-button project-primary-btn">
                     Live Demo
                   </a>
                 )}
-                <a href={project.githubLink} target="_blank" className="button secondary-btn">
+                <a href={project.githubLink} target="_blank" className="project-button project-secondary-btn">
                   GitHub
                 </a>
               </div>

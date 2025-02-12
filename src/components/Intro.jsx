@@ -11,9 +11,9 @@ export function Intro() {
         <h2>👨‍💻 Full-Stack Developer | Universal Design</h2>
         <p>Building inclusive and user-friendly web applications.</p>
         <div className="intro-buttons">
-          <a href="#about" className="button primary-btn">About</a>
-          <a href="#projects" className="button primary-btn">Projects</a>
-          <a href="#contact" className="button primary-btn">Contact</a>
+          <a href="#about" className="intro-button intro-primary-btn">About</a>
+          <a href="#projects" className="intro-button intro-primary-btn">Projects</a>
+          <a href="#contact" className="intro-button intro-primary-btn">Contact</a>
         </div>
       </div>
     </section>

@@ -52,7 +52,7 @@
     gap: 10px;
   }
   
-  .button {
+  .project-button {
     display: inline-block;
     padding: 10px 16px;
     font-size: 1rem;
@@ -63,25 +63,25 @@
     cursor: pointer;
   }
   
-  .primary-btn {
+  .project-primary-btn {
     background-color: #00d4ff;
     color: white;
     height: 39px;
     width: 65px;
   }
   
-  .primary-btn:hover {
+  .project-primary-btn:hover {
     background-color: #0099cc;
   }
   
-  .secondary-btn {
+  .project-secondary-btn {
     border: 2px solid #00d4ff;
     color: #00d4ff;
     height: 35px;
     line-height: 2;
   }
   
-  .secondary-btn:hover {
+  .project-secondary-btn:hover {
     background-color: #00d4ff;
     color: white;
   }
