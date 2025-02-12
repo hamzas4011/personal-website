@@ -18,7 +18,7 @@ export function Contact() {
             <FaLinkedin className="contact-icon" />
           </a>
 
-          <a href="https://github.com/yourgithubusername" className="contact-item" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/hamzas4011/" className="contact-item" target="_blank" rel="noopener noreferrer">
             <FaGithub className="contact-icon" />
           </a>
         </div>
