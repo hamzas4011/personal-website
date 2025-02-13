@@ -4,15 +4,20 @@ import profilePicture from "../assets/profile-picture.jpg";
 
 export function Intro() {
   useEffect(() => {
-    const handleTouchEnd = () => {
-      document.querySelectorAll(".intro-button").forEach((btn) => {
-        btn.classList.remove("intro-primary-btn-hover");
+    const buttons = document.querySelectorAll(".intro-button");
+    
+    buttons.forEach((btn) => {
+      btn.addEventListener("click", function () {
+        this.blur(); // Removes focus from button after click
       });
-    };
+    });
 
-    document.addEventListener("touchend", handleTouchEnd);
     return () => {
-      document.removeEventListener("touchend", handleTouchEnd);
+      buttons.forEach((btn) => {
+        btn.removeEventListener("click", function () {
+          this.blur();
+        });
+      });
     };
   }, []);
 
