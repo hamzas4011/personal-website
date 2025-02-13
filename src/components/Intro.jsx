@@ -1,26 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "../styles/Intro.css";
-import profilePicture from "../assets/profile-picture.jpg";
+import profilePicture from "../assets/profile-picture.jpg"; 
 
 export function Intro() {
-  useEffect(() => {
-    const buttons = document.querySelectorAll(".intro-button");
-    
-    buttons.forEach((btn) => {
-      btn.addEventListener("click", function () {
-        this.blur(); // Removes focus from button after click
-      });
-    });
-
-    return () => {
-      buttons.forEach((btn) => {
-        btn.removeEventListener("click", function () {
-          this.blur();
-        });
-      });
-    };
-  }, []);
-
   return (
     <section id="intro" className="intro">
       <div className="intro-content">
