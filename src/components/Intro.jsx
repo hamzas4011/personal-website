@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/Intro.css";
-import profilePicture from "../assets/profile-picture.jpg"; 
+import profilePicture from "../assets/profile-picture.jpg";
 
 export function Intro() {
+  useEffect(() => {
+    const handleTouchEnd = () => {
+      document.querySelectorAll(".intro-button").forEach((btn) => {
+        btn.classList.remove("intro-primary-btn-hover");
+      });
+    };
+
+    document.addEventListener("touchend", handleTouchEnd);
+    return () => {
+      document.removeEventListener("touchend", handleTouchEnd);
+    };
+  }, []);
+
   return (
     <section id="intro" className="intro">
       <div className="intro-content">

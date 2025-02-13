@@ -1,4 +1,3 @@
-
 .intro {
   height: 100vh;
   display: flex;
@@ -62,12 +61,8 @@
   color: white;
 }
 
-.intro-primary-btn:hover {
+.intro-primary-btn:hover, 
+.intro-primary-btn.intro-primary-btn-hover {
   background-color: #0099cc;
 }
 
-@media (pointer: coarse) {
-  .intro-primary-btn:hover {
-    background-color: inherit; /* Removes hover effect */
-  }
-}
