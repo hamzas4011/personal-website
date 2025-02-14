@@ -1,15 +1,4 @@
 
-html {
-  scroll-behavior: smooth;
-}
-
-.about,
-.projects,
-.contact {
-  padding-top: 80px;
-  scroll-padding-top: 80px;
-}
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -41,14 +30,15 @@ body {
 }
 
 .section {
+  width: 100vw;
   height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
   text-align: center;
+  transition: opacity 0.5s ease-in-out;
 }
+
 
 .intro {
   background: linear-gradient(to right, #4a90e2, #1e3c72);

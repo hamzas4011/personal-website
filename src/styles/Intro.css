@@ -1,11 +1,3 @@
-
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 80px;
-}
-
-
-
 .intro {
   height: 100vh;
   display: flex;
@@ -33,6 +25,7 @@ html {
 .intro h1 {
   font-size: 3rem;
   font-weight: bold;
+  margin-top: 10px;
 }
 
 .intro h2 {
@@ -72,4 +65,3 @@ html {
 .intro-primary-btn:hover {
   background-color: #0099cc;
 }
-
