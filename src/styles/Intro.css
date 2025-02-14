@@ -1,4 +1,11 @@
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+
+
 .intro {
   height: 100vh;
   display: flex;
