@@ -68,6 +68,9 @@
     color: white;
     height: 38px;
     width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .project-primary-btn:hover {
@@ -80,6 +83,9 @@
     height: 35px;
     width: 65px;
     line-height: 2.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .project-secondary-btn:hover {
