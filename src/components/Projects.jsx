@@ -7,9 +7,6 @@ export function Projects() {
     <section id="projects" className="projects">
       <div className="projects-content">
         <h2>Projects</h2>
-        <p className="projects-description">
-          Here are some of the projects I've worked on, showcasing my skills in frontend and backend development.
-        </p>
         <div className="projects-list">
           {projects.map((project, index) => (
             <div key={index} className="project-card">

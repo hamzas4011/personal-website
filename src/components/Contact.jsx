@@ -6,8 +6,9 @@ export function Contact() {
   return (
     <section id="contact" className="contact">
       <div className="contact-box">
-        <h2>Contact Me</h2>
-        <p>If you'd like to connect, feel free to reach out via email, LinkedIn, or GitHub.</p>
+        <h2>Contact</h2>
+        <p>Let's connect! Reach out via email or LinkedIn, or explore my projects on GitHub.</p>
+
 
         <div className="contact-links">
           <a href="mailto:hamzas4011@hotmail.com" className="contact-item" target="_blank" rel="noopener noreferrer">
