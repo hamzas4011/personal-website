@@ -7,7 +7,7 @@ export function Contact() {
     <section id="contact" className="contact">
       <div className="contact-box">
         <h2>Contact</h2>
-        <p>Feel free to connect via email or LinkedIn, or explore my projects on GitHub.</p>
+        <p>Feel free to contact via email or LinkedIn, or explore my projects on GitHub.</p>
 
         <div className="contact-links">
           <a href="mailto:hamzas4011@hotmail.com" className="contact-item" target="_blank" rel="noopener noreferrer">
