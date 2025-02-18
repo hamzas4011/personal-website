@@ -53,16 +53,14 @@
   font-size: 1.5rem;
 }
 
-/* Customize Icon Colors */
-.js { color: #f7df1e; }      /* JavaScript (Yellow) */
-.python { color: #3776ab; }  /* Python (Blue) */
-.html { color: #e34c26; }    /* HTML (Orange) */
-.css { color: #264de4; }     /* CSS (Blue) */
-.react { color: #61dbfb; }   /* React.js (Cyan) */
-.nodejs { color: #8cc84b; }  /* Node.js (Green) */
-.git { color: #f1502f; }     /* Git (Red) */
-.github { color: black; }    /* GitHub (Black) */
-
+.js { color: #f7df1e; }      
+.python { color: #3776ab; }  
+.html { color: #e34c26; }    
+.css { color: #264de4; }     
+.react { color: #61dbfb; }   
+.nodejs { color: #8cc84b; }
+.git { color: #f1502f; }     
+.github { color: black; }    
 .skill-item span {
   display: inline-block;
 }
