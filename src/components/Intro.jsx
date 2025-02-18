@@ -12,6 +12,7 @@ export function Intro() {
         <p>Building inclusive and user-friendly web applications.</p>
         <div className="intro-buttons">
           <a href="#about" className="intro-button intro-primary-btn">About</a>
+          <a href="#skills" className="intro-button intro-primary-btn">Skills</a>
           <a href="#projects" className="intro-button intro-primary-btn">Projects</a>
           <a href="#contact" className="intro-button intro-primary-btn">Contact</a>
         </div>
