@@ -23,6 +23,10 @@
   font-size: 1.8rem;
   color: #1e3c72;
   margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .skills-list {
@@ -32,16 +36,37 @@
   gap: 15px;
 }
 
-.skills-list span {
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
   background: #00d4ff;
   color: white;
   padding: 12px 18px;
   border-radius: 8px;
-  font-size: 1.2rem;
   font-weight: bold;
   transition: all 0.3s ease;
 }
 
-.skills-list span:hover {
+.skill-icon {
+  font-size: 1.5rem;
+}
+
+/* Customize Icon Colors */
+.js { color: #f7df1e; }      /* JavaScript (Yellow) */
+.python { color: #3776ab; }  /* Python (Blue) */
+.html { color: #e34c26; }    /* HTML (Orange) */
+.css { color: #264de4; }     /* CSS (Blue) */
+.react { color: #61dbfb; }   /* React.js (Cyan) */
+.nodejs { color: #8cc84b; }  /* Node.js (Green) */
+.git { color: #f1502f; }     /* Git (Red) */
+.github { color: black; }    /* GitHub (Black) */
+
+.skill-item span {
+  display: inline-block;
+}
+
+.skill-item:hover {
   background: #0099cc;
 }
