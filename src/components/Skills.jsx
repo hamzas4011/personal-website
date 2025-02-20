@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Skills.css";
-import { FaJs, FaPython, FaHtml5, FaCss3, FaReact, FaNodeJs, FaGitAlt, FaGithub, FaCode } from "react-icons/fa";
+import { FaJs, FaPython, FaHtml5, FaCss3, FaReact, FaNodeJs, FaGitAlt, FaGithub } from "react-icons/fa";
 
 const Skills = () => {
   return (
@@ -9,7 +9,7 @@ const Skills = () => {
         <h2>Technical Skills</h2>
 
         <div className="skills-category">
-          <h3><FaCode className="category-icon" /> Languages</h3>
+          <h3>Languages</h3>
           <div className="skills-list">
             <div className="skill-item"><FaJs className="skill-icon js" /> <span>JavaScript</span></div>
             <div className="skill-item"><FaPython className="skill-icon python" /> <span>Python</span></div>
@@ -19,7 +19,7 @@ const Skills = () => {
         </div>
 
         <div className="skills-category">
-          <h3><FaCode className="category-icon" /> Frameworks & Libraries</h3>
+          <h3>Frameworks & Libraries</h3>
           <div className="skills-list">
             <div className="skill-item"><FaReact className="skill-icon react" /> <span>React.js</span></div>
             <div className="skill-item"><FaNodeJs className="skill-icon nodejs" /> <span>Node.js</span></div>
@@ -27,7 +27,7 @@ const Skills = () => {
         </div>
 
         <div className="skills-category">
-          <h3><FaCode className="category-icon" /> Tools & Technologies</h3>
+          <h3>Tools & Technologies</h3>
           <div className="skills-list">
             <div className="skill-item"><FaGitAlt className="skill-icon git" /> <span>Git</span></div>
             <div className="skill-item"><FaGithub className="skill-icon github" /> <span>GitHub</span></div>
