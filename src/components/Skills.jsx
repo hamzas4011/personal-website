@@ -5,7 +5,7 @@ import { FaJs, FaPython, FaHtml5, FaCss3, FaReact, FaNodeJs, FaGitAlt, FaGithub 
 const Skills = () => {
   return (
     <section id="skills" className="skills">
-      <div className="skills-content">
+      <div className="skills-box">
         <h2>Technical Skills</h2>
 
         <div className="skills-category">
