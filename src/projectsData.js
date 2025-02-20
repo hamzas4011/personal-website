@@ -12,6 +12,11 @@ const projects = [
     githubLink: "https://github.com/hamzas4011/coffee-shop",
   },
   {
+    name: "E-Commerce Website",
+    description: "Fully responsive e-commerce website built with React.js and Node.js.",
+    githubLink: "https://github.com/hamzas4011/ecommerce-app",
+  },
+  {
     name: "Typing Tester",
     description: "Python-based typing tester with a simple, interactive interface for practice and tracking progress.",
     liveLink: null,
@@ -24,17 +29,11 @@ const projects = [
     githubLink: "https://github.com/hamzas4011/konyarestaurant",
   },
   {
-    name: "Keeper App",
-    description: "Simple note-keeping app built with React.js, inspired by Google Keep.",
-    liveLink: "https://keeper-app-ten-gilt.vercel.app/",
-    githubLink: "https://github.com/hamzas4011/keeper-app",
+    name: "Nintendo Game",
+    description: "Fullstack project built with React.js and linked to C#.",
+    githubLink: "https://github.com/hamzas4011/nintendogame",
   },
-  {
-    name: "E-Commerce Website",
-    description: "Fully responsive e-commerce website built with React.js and Node.js.",
-    liveLink: null,
-    githubLink: "https://github.com/hamzas4011/e-commerce",
-  }
+ 
 ];
 
 export default projects;
