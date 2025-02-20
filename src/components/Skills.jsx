@@ -9,7 +9,7 @@ const Skills = () => {
         <h2>Technical Skills</h2>
 
         <div className="skills-category">
-          <h3>Languages</h3>
+          <h3>Programming Languages</h3>
           <div className="skills-list">
             <div className="skill-item"><FaJs className="skill-icon js" /> <span>JavaScript</span></div>
             <div className="skill-item"><FaPython className="skill-icon python" /> <span>Python</span></div>
@@ -27,7 +27,7 @@ const Skills = () => {
         </div>
 
         <div className="skills-category">
-          <h3>Tools & Technologies</h3>
+          <h3>Development Tools</h3>
           <div className="skills-list">
             <div className="skill-item"><FaGitAlt className="skill-icon git" /> <span>Git</span></div>
             <div className="skill-item"><FaGithub className="skill-icon github" /> <span>GitHub</span></div>
