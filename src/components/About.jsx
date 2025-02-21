@@ -16,16 +16,16 @@ export function About() {
         </p>
         <div className="about-icons">
           <div className="about-item">
-            <FaLaptopCode className="icon" />
+            <FaLaptopCode className="icon code" />
           </div>
           <div className="about-item">
-            <FaBook className="icon" />
+            <FaBook className="icon book" />
           </div>
           <div className="about-item">
-            <FaGamepad className="icon" />
+            <FaGamepad className="icon game" />
           </div>
           <div className="about-item">
-            <FaHiking className="icon" />
+            <FaHiking className="icon hike" />
           </div>
         </div>
       </div>
