@@ -39,37 +39,29 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
-}
-
-.skill-item {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 1.2rem;
-  color: #1e3c72;
-  padding: 8px 14px;
-  font-weight: bold;
-  transition: all 0.3s ease;
+  gap: 20px;
 }
 
 .skill-icon {
-  font-size: 1.8rem;
+  font-size: 3rem;
+  transition: transform 0.3s ease;
 }
 
 .js { color: #f7df1e; }      
 .python { color: #3776ab; }  
 .html { color: #e34c26; }    
 .css { color: #264de4; }     
+.csharp { color: #68217a; }  
 .react { color: #61dbfb; }   
 .nodejs { color: #8cc84b; }
+.pygame { color: #3776ab; }  
+.matplotlib { color: #e87722; }  
+.tkinter { color: #ffcc00; }  
+.dotnet { color: #512bd4; }  
 .git { color: #f1502f; }     
-.github { color: black; }    
+.aws { color: #ff9900; }  
+.sql { color: #00758f; }    
 
-.skill-item span {
-  display: inline-block;
-}
-
-.skill-item:hover {
-  transform: scale(1.1);
+.skill-icon:hover {
+  transform: scale(1.2);
 }
