@@ -40,23 +40,31 @@
 
 .contact-item {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  font-size: 1rem;
   text-decoration: none;
-  color: #1e3c72;
-  font-weight: bold;
-  transition: color 0.3s ease, transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .contact-item:hover {
-  color: #0077b5;
   transform: scale(1.1);
+}
+
+.email .contact-icon {
+  color: white;
+  stroke: #000000; 
+  stroke-width: 20;
+}
+
+.linkedin .contact-icon {
+  color: #0077b5;
+}
+
+.github .contact-icon {
+  color: #171515;
 }
 
 .contact-icon {
   font-size: 2.8rem;
-  color: #0077b5;
   transition: transform 0.3s ease-in-out;
 }
 
