@@ -53,23 +53,33 @@
   transition: all 0.3s ease;
 }
 
-.skill-icon {
+/* FontAwesome (FA) Icons */
+.skill-item i {
   font-size: 1.8rem;
 }
 
+/* SVG Image Styling */
+.skill-item img {
+  width: 30px; /* Adjust size as needed */
+  height: 30px;
+}
+
+/* Colors for Icons */
 .js { color: #f7df1e; }      
 .python { color: #3776ab; }  
 .html { color: #e34c26; }    
 .css { color: #264de4; }     
+.csharp { color: #239120; }  
 .react { color: #61dbfb; }   
 .nodejs { color: #8cc84b; }
+.tkinter { color: #ffcc00; }
+.pygame { color: #4b8bbe; }
+.dotnet { color: #512bd4; }
 .git { color: #f1502f; }     
-.github { color: black; }    
+.sql { color: #f29111; }     
+.aws { color: #ff9900; }   
 
-.skill-item span {
-  display: inline-block;
-}
-
+/* Hover Effects */
 .skill-item:hover {
   transform: scale(1.1);
 }
