@@ -53,14 +53,13 @@
   transition: all 0.3s ease;
 }
 
-/* FontAwesome (FA) Icons */
-.skill-item i {
+.skill-icon {
   font-size: 1.8rem;
 }
 
-/* SVG Image Styling */
-.skill-item img {
-  width: 30px; /* Adjust size as needed */
+/* SVG Icons Styling */
+.skill-item svg {
+  width: 30px;
   height: 30px;
 }
 
@@ -79,7 +78,6 @@
 .sql { color: #f29111; }     
 .aws { color: #ff9900; }   
 
-/* Hover Effects */
 .skill-item:hover {
   transform: scale(1.1);
 }
