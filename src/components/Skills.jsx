@@ -2,10 +2,17 @@ import React from "react";
 import "../styles/Skills.css";
 import { 
   FaJs, FaHtml5, FaCss3, FaPython, FaReact, FaNodeJs, FaGitAlt, FaAws, 
-  FaDatabase
+  FaDatabase, FaChevronDown
 } from "react-icons/fa";
 
 const Skills = () => {
+  const scrollToNextSection = () => {
+    const nextSection = document.getElementById("projects");
+    if (nextSection) {
+      nextSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section id="skills" className="skills">
       <div className="skills-box">
@@ -49,6 +56,10 @@ const Skills = () => {
             <div className="skill-item"><FaAws className="skill-icon aws" /> <span>AWS</span></div>
           </div>
         </div>
+      </div>
+
+      <div className="scroll-down" onClick={scrollToNextSection}>
+        <FaChevronDown className="scroll-icon" />
       </div>
     </section>
   );

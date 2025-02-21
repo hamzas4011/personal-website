@@ -1,14 +1,21 @@
 import React from "react";
-import "../styles/About.css"; 
-import { FaLaptopCode, FaGamepad, FaHiking, FaBook } from "react-icons/fa"; 
+import "../styles/About.css";
+import { FaLaptopCode, FaGamepad, FaHiking, FaBook, FaChevronDown } from "react-icons/fa";
 
 export function About() {
+  const scrollToNextSection = () => {
+    const nextSection = document.getElementById("skills"); 
+    if (nextSection) {
+      nextSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section id="about" className="about">
       <div className="about-box">
         <h2>About</h2>
         <p>
-          I'm a Full-Stack Developer with a Master's in Applied Computer and IT, specializing in Accessibility & Universal Design. 
+          I'm a Full-Stack Developer with a Master's in Applied Computer and IT, specializing in Accessibility & Universal Design.
           I love building applications that make technology more inclusive and user-friendly.
         </p>
         <p>
@@ -28,6 +35,10 @@ export function About() {
             <FaHiking className="icon hike" />
           </div>
         </div>
+      </div>
+      
+      <div className="scroll-down" onClick={scrollToNextSection}>
+        <FaChevronDown className="scroll-icon" />
       </div>
     </section>
   );

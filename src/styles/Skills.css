@@ -3,6 +3,7 @@
   padding: 80px 20px;
   background-color: #f4f4f4;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -21,7 +22,7 @@
   font-size: 2.8rem;
   font-weight: bold;
   color: #1e3c72;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
 
 .skills-category {
@@ -69,7 +70,6 @@
   color: white;
 }
 
-
 .js { color: #f7df1e; }      
 .python { color: #3776ab; }  
 .html { color: #e34c26; }    
@@ -84,7 +84,34 @@
 .sql { color: #f29111; }     
 .aws { color: #ff9900; }   
 
-
 .skill-item:hover {
   transform: scale(1.1);
+}
+
+.scroll-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  cursor: pointer;
+  animation: bounce 1.5s infinite;
+}
+
+.scroll-icon {
+  font-size: 2rem;
+  color: #1e3c72;
+  transition: color 0.3s ease-in-out;
+}
+
+.scroll-icon:hover {
+  color: #555;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
 }

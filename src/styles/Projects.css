@@ -100,3 +100,31 @@
   background-color: #00d4ff;
   color: white;
 }
+
+.scroll-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  cursor: pointer;
+  animation: bounce 1.5s infinite;
+}
+
+.scroll-icon {
+  font-size: 2rem;
+  color: #1e3c72;
+  transition: color 0.3s ease-in-out;
+}
+
+.scroll-icon:hover {
+  color: #555;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}

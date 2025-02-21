@@ -1,6 +1,8 @@
+
 .about {
   min-height: 80vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
@@ -21,7 +23,7 @@
   font-size: 2.8rem;
   font-weight: bold;
   color: #1e3c72;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
 
 .about p {
@@ -60,3 +62,31 @@
 .book { color: #27ae60; }  
 .game { color: #8e44ad; }  
 .hike { color: #8b4513; }  
+
+.scroll-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  cursor: pointer;
+  animation: bounce 1.5s infinite;
+}
+
+.scroll-icon {
+  font-size: 2rem;
+  color: #1e3c72;
+  transition: color 0.3s ease-in-out;
+}
+
+.scroll-icon:hover {
+  color: #555;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
