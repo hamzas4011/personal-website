@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
-  padding: 50px 20px;
+  padding: 60px 20px;
   text-align: center;
 }
 
@@ -13,7 +13,7 @@
   background: white;
   padding: 40px;
   border-radius: 12px;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.1);
   max-width: 700px;
   width: 100%;
 }
@@ -22,7 +22,7 @@
   font-size: 2.8rem;
   font-weight: bold;
   color: #1e3c72;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .about p {
@@ -50,7 +50,7 @@
 }
 
 .icon {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   transition: transform 0.3s ease-in-out, color 0.3s;
 }
 
@@ -58,10 +58,10 @@
   transform: scale(1.2);
 }
 
-.code { color: #f39c12; }  
-.book { color: #27ae60; }  
-.game { color: #8e44ad; }  
-.hike { color: #8b4513; }  
+.code { color: #ff7700; }  
+.book { color: #20c997; }  
+.game { color: #9b59b6; }  
+.hike { color: #228B22; }  
 
 .scroll-down {
   display: flex;
@@ -93,10 +93,6 @@
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
-  .about {
-    padding: 40px 15px;
-  }
-
   .about h2 {
     font-size: 2.2rem;
   }
@@ -110,7 +106,7 @@
   }
 
   .icon {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .scroll-icon {
@@ -120,7 +116,7 @@
 
 @media (max-width: 480px) {
   .about {
-    padding: 30px 10px;
+    padding: 50px 15px;
   }
 
   .about h2 {
@@ -136,7 +132,7 @@
   }
 
   .icon {
-    font-size: 1.8rem;
+    font-size: 2.3rem;
   }
 
   .scroll-icon {
