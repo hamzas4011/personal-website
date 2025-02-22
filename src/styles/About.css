@@ -15,7 +15,7 @@
   border-radius: 12px;
   box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.1);
   max-width: 700px;
-  width: 100%;
+  width: 90%;
 }
 
 .about h2 {
@@ -93,6 +93,10 @@
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
+  .about-box {
+    width: 95%;
+  }
+
   .about h2 {
     font-size: 2.2rem;
   }
@@ -117,6 +121,11 @@
 @media (max-width: 480px) {
   .about {
     padding: 50px 15px;
+  }
+
+  .about-box {
+    width: 100%;
+    padding: 30px;
   }
 
   .about h2 {
