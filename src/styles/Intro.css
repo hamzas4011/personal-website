@@ -1,5 +1,5 @@
 .intro {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,11 +11,12 @@
 
 .intro-content {
   max-width: 700px;
+  width: 90%;
 }
 
 .profile-pic {
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid white;
@@ -23,18 +24,18 @@
 }
 
 .intro h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   margin-top: 10px;
 }
 
 .intro h2 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin-top: 10px;
 }
 
 .intro p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #ddd;
   margin-top: 10px;
 }
@@ -43,7 +44,8 @@
   margin-top: 20px;
   display: flex;
   justify-content: center;
-  gap: 15px;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .intro-button {
@@ -65,4 +67,29 @@
 
 .intro-primary-btn:hover {
   background-color: #0099cc;
+}
+
+@media (max-width: 600px) {
+  .intro h1 {
+    font-size: 2rem;
+  }
+
+  .intro h2 {
+    font-size: 1.3rem;
+  }
+
+  .profile-pic {
+    width: 130px;
+    height: 130px;
+  }
+
+  .intro-buttons {
+    flex-direction: column;
+  }
+
+  .intro-button {
+    width: 80%;
+    padding: 14px 0;
+    font-size: 1.1rem;
+  }
 }
