@@ -84,12 +84,13 @@
   }
 
   .intro-buttons {
-    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   .intro-button {
-    width: 80%;
-    padding: 14px 0;
-    font-size: 1.1rem;
+    width: auto;
+    padding: 12px 20px;
+    font-size: 1rem;
   }
 }
