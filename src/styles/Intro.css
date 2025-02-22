@@ -44,20 +44,22 @@
   margin-top: 20px;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px;
+  flex-wrap: nowrap;
+  gap: 8px;
+  overflow-x: auto;
 }
 
 .intro-button {
   display: inline-block;
-  padding: 12px 24px;
-  font-size: 1rem;
+  padding: 10px 20px;
+  font-size: 0.9rem;
   font-weight: bold;
   border-radius: 8px;
   text-decoration: none;
   transition: all 0.3s ease;
   cursor: pointer;
   border: none;
+  white-space: nowrap;
 }
 
 .intro-primary-btn {
@@ -84,13 +86,13 @@
   }
 
   .intro-buttons {
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding-bottom: 10px;
   }
 
   .intro-button {
-    width: auto;
-    padding: 12px 20px;
-    font-size: 1rem;
+    font-size: 0.85rem;
+    padding: 8px 16px;
   }
 }
