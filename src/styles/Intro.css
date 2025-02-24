@@ -41,7 +41,7 @@
 }
 
 .intro-buttons {
-  margin-top: 20px;
+  margin-top: 30px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -50,7 +50,7 @@
 
 .intro-button {
   display: inline-block;
-  padding: 12px 24px;
+  padding: 12px 30px;
   font-size: 1rem;
   font-weight: bold;
   border-radius: 8px;
