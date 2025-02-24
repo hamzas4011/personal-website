@@ -91,10 +91,9 @@
   }
 }
 
-/* Mobile Responsiveness */
 @media (max-width: 768px) {
   .about-box {
-    width: 95%;
+    max-width: 80%;
   }
 
   .about h2 {
@@ -124,7 +123,7 @@
   }
 
   .about-box {
-    width: 100%;
+    max-width: 70%;
     padding: 30px;
   }
 
