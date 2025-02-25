@@ -53,6 +53,9 @@
   padding: 8px 14px;
   font-weight: normal;
   transition: all 0.3s ease;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  outline: none;
 }
 
 .skill-icon {
