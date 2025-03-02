@@ -6,15 +6,16 @@ const projects = [
     githubLink: "https://github.com/hamzas4011/calculator-app",
   },
   {
+    name: "E-Commerce Website",
+    description: "Fully responsive e-commerce website built with React.js and Node.js.",
+    livelink: "ecommerce-app-alpha-lake-45.vercel.app",
+    githubLink: "https://github.com/hamzas4011/ecommerce-app",
+  },
+  {
     name: "Coffee Shop",
     description: "Coffee shop website built with React.js, creatively showcasing menu and services.",
     liveLink: "https://coffee-shop-ivory-seven.vercel.app/",
     githubLink: "https://github.com/hamzas4011/coffee-shop",
-  },
-  {
-    name: "E-Commerce Website",
-    description: "Fully responsive e-commerce website built with React.js and Node.js.",
-    githubLink: "https://github.com/hamzas4011/ecommerce-app",
   },
   {
     name: "Typing Tester",
