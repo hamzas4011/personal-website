@@ -6,6 +6,12 @@ const projects = [
     githubLink: "https://github.com/hamzas4011/calculator-app",
   },
   {
+    name: "Calculator App",
+    description: "Responsive calculator built with React.js for basic arithmetic operations.",
+    liveLink: "https://calculator-app-two-beta.vercel.app/",
+    githubLink: "https://github.com/hamzas4011/calculator-app",
+  },
+  {
     name: "E-Commerce Website",
     description: "Fully responsive e-commerce website built with React.js",
     liveLink: "https://ecommerce-app-alpha-lake-45.vercel.app",
@@ -28,13 +34,7 @@ const projects = [
     description: "Vue.js frontend for a fictional Turkish restaurant, linked to a C# API with CRUD.",
     liveLink: null,
     githubLink: "https://github.com/hamzas4011/konyarestaurant",
-  },
-  {
-    name: "Nintendo Game",
-    description: "Fullstack project built with React.js and linked to C#.",
-    githubLink: "https://github.com/hamzas4011/nintendogame",
-  },
- 
+  }
 ];
 
 export default projects;
