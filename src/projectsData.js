@@ -1,9 +1,9 @@
 const projects = [
   {
-    name: "Calculator App",
-    description: "Responsive calculator built with React.js for basic arithmetic operations.",
-    liveLink: "https://calculator-app-two-beta.vercel.app/",
-    githubLink: "https://github.com/hamzas4011/calculator-app",
+    name: "Anime Search Explore",
+    description: "A Next.js, TypeScript, and Tailwind CSS anime search app (in progress). Fetches real-time data from API.",
+    liveLink: "https://anime-search-explore.vercel.app/",
+    githubLink: "https://github.com/hamzas4011/anime-search",
   },
   {
     name: "Calculator App",
