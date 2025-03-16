@@ -85,8 +85,8 @@
 .sql { color: #f29111; }     
 .aws { color: #ff9900; }   
 .typescript { background-color: #3178c6; color: white; } 
-.nextjs { background-color: #000; color: white; } 
-.tailwind { background-color: #38b2ac; color: white; } 
+.nextjs { background-color: #000; color: white; font-size: 10px; } 
+.tailwind { background-color: #38b2ac; color: white; font-size: 8px;}
 
 .skill-item:hover {
   transform: scale(1.1);
