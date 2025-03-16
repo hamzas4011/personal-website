@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Skills.css";
 import { 
   FaJs, FaHtml5, FaCss3, FaPython, FaReact, FaNodeJs, FaGitAlt, FaAws, 
-  FaDatabase, FaChevronDown
+  FaDatabase, FaChevronDown, FaCss3Alt 
 } from "react-icons/fa";
 
 const Skills = () => {
@@ -28,6 +28,9 @@ const Skills = () => {
             <div className="skill-item">
               <div className="custom-icon csharp">C#</div> <span>C#</span>
             </div>
+            <div className="skill-item">
+              <div className="custom-icon typescript">TS</div> <span>TypeScript</span>
+            </div>
           </div>
         </div>
 
@@ -44,6 +47,12 @@ const Skills = () => {
             </div>
             <div className="skill-item">
               <div className="custom-icon dotnet">.NET</div> <span>.NET</span>
+            </div>
+            <div className="skill-item">
+              <div className="custom-icon nextjs">Next.js</div> <span>Next.js</span>
+            </div>
+            <div className="skill-item">
+              <div className="custom-icon tailwind">Tailwind</div> <span>Tailwind CSS</span>
             </div>
           </div>
         </div>
