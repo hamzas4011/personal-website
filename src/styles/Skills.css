@@ -56,37 +56,26 @@
 }
 
 .skill-icon {
-  font-size: 1.8rem;
-}
-
-.custom-icon {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-  font-size: 12px;
-  color: white;
+  font-size: 2rem;
 }
 
 .js { color: #f7df1e; }      
 .python { color: #3776ab; }  
 .html { color: #e34c26; }    
 .css { color: #264de4; }     
-.csharp { background-color: #239120; }  
+.csharp { color: #239120; }  
 .react { color: #61dbfb; }   
 .nodejs { color: #8cc84b; }
-.tkinter { background-color: #ffcc00; color: black; } 
-.pygame { background-color: #4b8bbe; }  
-.dotnet { background-color: #512bd4; } 
+.tkinter { color: #ffcc00; } 
+.pygame { color: #4b8bbe; }  
+.dotnet { color: #512bd4; } 
 .git { color: #f1502f; }     
 .sql { color: #f29111; }     
 .aws { color: #ff9900; }   
-.typescript { background-color: #3178c6; color: white; } 
-.nextjs { background-color: #000; color: white; font-size: 10px; } 
-.tailwind { background-color: #38b2ac; color: white; font-size: 8px;}
+
+.typescript { color: #3178c6; }  
+.nextjs { color: #000; }  
+.tailwind { color: #38b2ac; }  
 
 .skill-item:hover {
   transform: scale(1.1);
