@@ -2,8 +2,9 @@ import React from "react";
 import "../styles/Skills.css";
 import { 
   FaJs, FaHtml5, FaCss3, FaPython, FaReact, FaNodeJs, FaGitAlt, FaAws, 
-  FaDatabase, FaChevronDown, FaCss3Alt 
+  FaDatabase, FaChevronDown 
 } from "react-icons/fa";
+import { SiTypescript, SiNextdotjs, SiTailwindcss } from "react-icons/si"; // Import real logos
 
 const Skills = () => {
   const scrollToNextSection = () => {
@@ -28,9 +29,7 @@ const Skills = () => {
             <div className="skill-item">
               <div className="custom-icon csharp">C#</div> <span>C#</span>
             </div>
-            <div className="skill-item">
-              <div className="custom-icon typescript">TS</div> <span>TypeScript</span>
-            </div>
+            <div className="skill-item"><SiTypescript className="skill-icon typescript" /> <span>TypeScript</span></div>
           </div>
         </div>
 
@@ -48,12 +47,8 @@ const Skills = () => {
             <div className="skill-item">
               <div className="custom-icon dotnet">.NET</div> <span>.NET</span>
             </div>
-            <div className="skill-item">
-              <div className="custom-icon nextjs">Next.js</div> <span>Next.js</span>
-            </div>
-            <div className="skill-item">
-              <div className="custom-icon tailwind">Tailwind</div> <span>Tailwind CSS</span>
-            </div>
+            <div className="skill-item"><SiNextdotjs className="skill-icon nextjs" /> <span>Next.js</span></div>
+            <div className="skill-item"><SiTailwindcss className="skill-icon tailwind" /> <span>Tailwind CSS</span></div>
           </div>
         </div>
 
