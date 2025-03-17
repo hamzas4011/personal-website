@@ -2,11 +2,8 @@ import React from "react";
 import "../styles/Skills.css";
 import { 
   FaJs, FaHtml5, FaCss3, FaPython, FaReact, FaNodeJs, FaGitAlt, FaAws, 
-  FaDatabase, FaChevronDown, FaMicrosoft 
+  FaDatabase, FaChevronDown, FaMicrosoft, FaServer, FaTools 
 } from "react-icons/fa";
-import { 
-  SiTypescript, SiNextdotjs, SiTailwindcss, SiDotnet, SiTkinter, SiPygame, SiMysql
-} from "react-icons/si";
 
 const Skills = () => {
   const scrollToNextSection = () => {
@@ -29,7 +26,7 @@ const Skills = () => {
             <div className="skill-item"><FaCss3 className="skill-icon css" /> <span>CSS</span></div>
             <div className="skill-item"><FaPython className="skill-icon python" /> <span>Python</span></div>
             <div className="skill-item"><FaMicrosoft className="skill-icon csharp" /> <span>C#</span></div>
-            <div className="skill-item"><SiTypescript className="skill-icon typescript" /> <span>TypeScript</span></div>
+            <div className="skill-item"><FaJs className="skill-icon typescript" /> <span>TypeScript</span></div> 
           </div>
         </div>
 
@@ -38,11 +35,11 @@ const Skills = () => {
           <div className="skills-list">
             <div className="skill-item"><FaReact className="skill-icon react" /> <span>React.js</span></div>
             <div className="skill-item"><FaNodeJs className="skill-icon nodejs" /> <span>Node.js</span></div>
-            <div className="skill-item"><SiTkinter className="skill-icon tkinter" /> <span>Tkinter</span></div>
-            <div className="skill-item"><SiPygame className="skill-icon pygame" /> <span>Pygame</span></div>
-            <div className="skill-item"><SiDotnet className="skill-icon dotnet" /> <span>.NET</span></div>
-            <div className="skill-item"><SiNextdotjs className="skill-icon nextjs" /> <span>Next.js</span></div>
-            <div className="skill-item"><SiTailwindcss className="skill-icon tailwind" /> <span>Tailwind CSS</span></div>
+            <div className="skill-item"><FaPython className="skill-icon tkinter" /> <span>Tkinter</span></div>
+            <div className="skill-item"><FaPython className="skill-icon pygame" /> <span>Pygame</span></div>
+            <div className="skill-item"><FaMicrosoft className="skill-icon dotnet" /> <span>.NET</span></div>
+            <div className="skill-item"><FaServer className="skill-icon nextjs" /> <span>Next.js</span></div>
+            <div className="skill-item"><FaTools className="skill-icon tailwind" /> <span>Tailwind CSS</span></div>
           </div>
         </div>
 
@@ -50,7 +47,7 @@ const Skills = () => {
           <h3>Development Tools</h3>
           <div className="skills-list">
             <div className="skill-item"><FaGitAlt className="skill-icon git" /> <span>Git</span></div>
-            <div className="skill-item"><SiMysql className="skill-icon sql" /> <span>SQL</span></div>
+            <div className="skill-item"><FaDatabase className="skill-icon sql" /> <span>SQL</span></div>
             <div className="skill-item"><FaAws className="skill-icon aws" /> <span>AWS</span></div>
           </div>
         </div>
