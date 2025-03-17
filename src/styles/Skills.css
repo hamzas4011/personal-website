@@ -59,31 +59,30 @@
   font-size: 2rem;
 }
 
-/* Programming Languages */
+.typescript-img {
+  width: 2rem;
+  height: 2rem;
+}
+
+/* Colors */
 .js { color: #f7df1e; }      
 .python { color: #3776ab; }  
 .html { color: #e34c26; }    
 .css { color: #264de4; }     
 .csharp { color: #239120; }  
-
-/* Frameworks & Libraries */
 .react { color: #61dbfb; }   
 .nodejs { color: #8cc84b; }
-.tkinter { color: #ffcc00; } /* Keeping color for Tkinter */
-.pygame { color: #4b8bbe; }  /* Keeping color for Pygame */
+.tkinter { color: #ffcc00; } 
+.pygame { color: #4b8bbe; }  
 .dotnet { color: #512bd4; }  
-
-/* Development Tools */
 .git { color: #f1502f; }     
 .sql { color: #f29111; }     
 .aws { color: #ff9900; }  
-
-/* New Replacements */
-.typescript { color: #3178c6; }  /* Keeping TypeScript color */
-.nextjs { color: #000; }  /* Next.js is usually black */
-.tailwind { color: #38b2ac; } /* Tailwind is cyan-green */
-.server { color: #4a4a4a; } /* Used for Next.js */
-.tools { color: #555; } /* Used for Tailwind */
+.typescript { color: #3178c6; }  
+.nextjs { color: #000; }  
+.tailwind { color: #38b2ac; }  
+.server { color: #4a4a4a; }  
+.tools { color: #555; }  
 
 .csharp .skill-icon {
   font-size: 2.2rem;

@@ -26,7 +26,11 @@ const Skills = () => {
             <div className="skill-item"><FaCss3 className="skill-icon css" /> <span>CSS</span></div>
             <div className="skill-item"><FaPython className="skill-icon python" /> <span>Python</span></div>
             <div className="skill-item"><FaMicrosoft className="skill-icon csharp" /> <span>C#</span></div>
-            <div className="skill-item"><FaJs className="skill-icon typescript" /> <span>TypeScript</span></div> 
+            <div className="skill-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" 
+                   alt="TypeScript Logo" className="skill-icon typescript-img" />
+              <span>TypeScript</span>
+            </div>
           </div>
         </div>
 
