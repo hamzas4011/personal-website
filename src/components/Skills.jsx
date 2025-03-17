@@ -2,10 +2,10 @@ import React from "react";
 import "../styles/Skills.css";
 import { 
   FaJs, FaHtml5, FaCss3, FaPython, FaReact, FaNodeJs, FaGitAlt, FaAws, 
-  FaDatabase, FaChevronDown 
+  FaDatabase, FaChevronDown, FaMicrosoft 
 } from "react-icons/fa";
 import { 
-  SiTypescript, SiNextdotjs, SiTailwindcss, SiCsharp, SiDotnet, SiTkinter, SiPygame, SiMysql
+  SiTypescript, SiNextdotjs, SiTailwindcss, SiDotnet, SiTkinter, SiPygame, SiMysql
 } from "react-icons/si";
 
 const Skills = () => {
@@ -28,7 +28,7 @@ const Skills = () => {
             <div className="skill-item"><FaHtml5 className="skill-icon html" /> <span>HTML</span></div>
             <div className="skill-item"><FaCss3 className="skill-icon css" /> <span>CSS</span></div>
             <div className="skill-item"><FaPython className="skill-icon python" /> <span>Python</span></div>
-            <div className="skill-item"><SiCsharp className="skill-icon csharp" /> <span>C#</span></div>
+            <div className="skill-item"><FaMicrosoft className="skill-icon csharp" /> <span>C#</span></div>
             <div className="skill-item"><SiTypescript className="skill-icon typescript" /> <span>TypeScript</span></div>
           </div>
         </div>

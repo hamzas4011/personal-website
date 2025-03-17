@@ -77,6 +77,11 @@
 .nextjs { color: #000; }  
 .tailwind { color: #38b2ac; }  
 
+/* Ensure the FaMicrosoft icon (C#) is properly sized */
+.csharp .skill-icon {
+  font-size: 2.2rem;
+}
+
 .skill-item:hover {
   transform: scale(1.1);
 }
