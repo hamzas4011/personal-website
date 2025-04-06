@@ -1,7 +1,7 @@
 const projects = [
   {
-    name: "Anime Search",
-    description: "Anime search app built with Next.js, TypeScript, and Tailwind CSS.",
+    name: "Anime Explorer",
+    description: "Anime explore app built with Next.js, TypeScript, and Tailwind CSS.",
     liveLink: "https://anime-search-explore.vercel.app/",
     githubLink: "https://github.com/hamzas4011/anime-search",
   },
