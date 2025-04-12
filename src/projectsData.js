@@ -1,7 +1,7 @@
 const projects = [
   {
     name: "Anime Explorer",
-    description: "Fullstack web app built with Next.js, TypeScript, Tailwind CSS and API",
+    description: "Fullstack web app built with Next.js, TypeScript, Tailwind CSS and API.",
     liveLink: "https://anime-search-explore.vercel.app/",
     githubLink: "https://github.com/hamzas4011/anime-search",
   },
@@ -13,7 +13,7 @@ const projects = [
   },
   {
     name: "E-Commerce Website",
-    description: "Fully responsive e-commerce website built with React.js",
+    description: "Fully responsive e-commerce website built with React.js.",
     liveLink: "https://ecommerce-app-alpha-lake-45.vercel.app",
     githubLink: "https://github.com/hamzas4011/ecommerce-app",
   },
