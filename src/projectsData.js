@@ -1,7 +1,7 @@
 const projects = [
   {
     name: "Anime Explorer",
-    description: "Fullstack app built with Next.js, TypeScript, Tailwind CSS and API",
+    description: "Fullstack web app built with Next.js, TypeScript, Tailwind CSS and API",
     liveLink: "https://anime-search-explore.vercel.app/",
     githubLink: "https://github.com/hamzas4011/anime-search",
   },
