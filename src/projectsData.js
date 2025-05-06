@@ -6,8 +6,8 @@ const projects = [
     githubLink: "https://github.com/hamzas4011/anime-search",
   },
   {
-    name: "Calculator App",
-    description: "Responsive calculator built with React.js for basic arithmetic operations.",
+    name: "World View",
+    description: "WorldView is a fullstack web application where users can explore countries from around the world",
     liveLink: "https://calculator-app-two-beta.vercel.app/",
     githubLink: "https://github.com/hamzas4011/calculator-app",
   },
