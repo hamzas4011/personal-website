@@ -15,7 +15,7 @@ const projects = [
     name: "E-Commerce Website",
     description: "Fully responsive e-commerce website built with React.js.",
     liveLink: "https://ecommerce-app-alpha-lake-45.vercel.app",
-    githubLink: "https://github.com/hamzas4011/ecommerce-app",
+    githubLink: "https://github.com/hamzas4011/world-view-app",
   },
   {
     name: "Coffee Shop",
