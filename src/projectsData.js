@@ -11,6 +11,12 @@ const projects = [
     liveLink: "https://ecommerce-app-alpha-lake-45.vercel.app",
     githubLink: "https://github.com/hamzas4011/world-view-app",
   },
+   {
+    name: "Calculator App",
+    description: "Responsive calculator built with React.js for basic arithmetic operations.",
+    liveLink: "https://calculator-app-two-beta.vercel.app/",
+    githubLink: "https://github.com/hamzas4011/calculator-app",
+  },
   {
     name: "Coffee Shop",
     description: "Coffee shop website built with React.js, creatively showcasing menu and services.",
