@@ -42,7 +42,7 @@ const projects = [
     githubLink: "https://github.com/hamzas4011/konyarestaurant",
   },
    {
-    name: "Konya Restaurant",
+    name: "Nintendo Game",
     description: "Gaming webapp built with React.js. Features game browsing, rating, and CRUD operations via a C# API.",
     liveLink: null,
     githubLink: "https://github.com/hamzas4011/nintendogame",
