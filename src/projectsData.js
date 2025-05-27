@@ -1,7 +1,7 @@
 const projects = [
   {
     name: "World View",
-    description: "Discover countries with this fullstack web app built using Next.js, TypeScript, Tailwind CSS, and API",
+    description: "Discover countries with this fullstack web app built using Next.js, TypeScript, Tailwind CSS, and API.",
     liveLink: "https://world-view-seven.vercel.app/",
     githubLink: "https://github.com/hamzas4011/world-view",
   },
