@@ -16,7 +16,7 @@ export function Projects() {
       <div className="projects-content">
         <h2>Projects</h2>
         <div className="projects-list">
-          {projects.slice(0, 6).map((project, index) => (
+          {projects.slice(0, 8).map((project, index) => (
             <div key={index} className="project-card">
               <h3>{project.name}</h3>
               <p>{project.description}</p>
