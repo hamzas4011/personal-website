@@ -6,10 +6,10 @@ const projects = [
     githubLink: "https://github.com/hamzas4011/anime-search",
   },
    {
-    name: "E-Commerce Website",
-    description: "Fully responsive e-commerce website built with React.js.",
-    liveLink: "https://ecommerce-app-alpha-lake-45.vercel.app",
-    githubLink: "https://github.com/hamzas4011/world-view-app",
+    name: "World View",
+    description: "Fullstack web app where users can explore countries. Built with Next.js, TypeScript, Tailwind CSS and API.",
+    liveLink: "https://world-view-seven.vercel.app/",
+    githubLink: "https://github.com/hamzas4011/world-view",
   },
   {
     name: "E-Commerce Website",
@@ -43,9 +43,9 @@ const projects = [
   },
    {
     name: "Konya Restaurant",
-    description: "Vue.js frontend for a fictional Turkish restaurant, linked to a C# API with CRUD.",
+    description: "Gaming webapp built with React.js. Features game browsing, rating, and CRUD operations via a C# API.",
     liveLink: null,
-    githubLink: "https://github.com/hamzas4011/konyarestaurant",
+    githubLink: "https://github.com/hamzas4011/nintendogame",
   }
 ];
 
