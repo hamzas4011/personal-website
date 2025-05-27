@@ -5,6 +5,12 @@ const projects = [
     liveLink: "https://anime-search-explore.vercel.app/",
     githubLink: "https://github.com/hamzas4011/anime-search",
   },
+   {
+    name: "E-Commerce Website",
+    description: "Fully responsive e-commerce website built with React.js.",
+    liveLink: "https://ecommerce-app-alpha-lake-45.vercel.app",
+    githubLink: "https://github.com/hamzas4011/world-view-app",
+  },
   {
     name: "E-Commerce Website",
     description: "Fully responsive e-commerce website built with React.js.",
@@ -30,6 +36,12 @@ const projects = [
     githubLink: "https://github.com/hamzas4011/Typing_Tester",
   },
   {
+    name: "Konya Restaurant",
+    description: "Vue.js frontend for a fictional Turkish restaurant, linked to a C# API with CRUD.",
+    liveLink: null,
+    githubLink: "https://github.com/hamzas4011/konyarestaurant",
+  },
+   {
     name: "Konya Restaurant",
     description: "Vue.js frontend for a fictional Turkish restaurant, linked to a C# API with CRUD.",
     liveLink: null,
