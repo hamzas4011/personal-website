@@ -25,7 +25,7 @@ const projects = [
   },
   {
     name: "Local AI Agent",
-    description: "PLACEHOLDER — describe what it does and the tech stack here.",
+    description: "Local AI agent with tool calling and memory, built with Python, Ollama, and LangChain.",
     liveLink: null,
     githubLink: "https://github.com/hamzas4011/local-agent",
   },
