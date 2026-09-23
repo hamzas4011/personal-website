@@ -1,5 +1,11 @@
 const projects = [
   {
+    name: "Din Blomst",
+    description: "An accessible flower shop website built with React, TypeScript, and Tailwind CSS.",
+    liveLink: "https://din-blomst.vercel.app/",
+    githubLink: "https://github.com/hamzas4011/din-blomst",
+  },
+  {
     name: "World View",
     description: "Discover countries with this fullstack web app built using Next.js, TypeScript, Tailwind CSS, and API.",
     liveLink: "https://world-view-seven.vercel.app/",
@@ -18,22 +24,10 @@ const projects = [
     githubLink: "https://github.com/hamzas4011/world-view-app",
   },
   {
-    name: "Din Blomst",
-    description: "An accessible flower shop website built with React, TypeScript, and Tailwind CSS.",
-    liveLink: "https://din-blomst.vercel.app/",
-    githubLink: "https://github.com/hamzas4011/din-blomst",
-  },
-  {
     name: "Local AI Agent",
     description: "Local AI agent with tool calling and memory, built with Python, Ollama, and LangChain.",
     liveLink: null,
     githubLink: "https://github.com/hamzas4011/local-agent",
-  },
-  {
-    name: "Typing Tester",
-    description: "Python-based typing tester with a simple, interactive interface for practice and tracking progress.",
-    liveLink: null,
-    githubLink: "https://github.com/hamzas4011/Typing_Tester",
   },
   {
     name: "Konya Restaurant",
@@ -46,6 +40,12 @@ const projects = [
     description: "Gaming webapp built with React.js. Features game browsing, rating, and CRUD operations via a C# API.",
     liveLink: null,
     githubLink: "https://github.com/hamzas4011/nintendogame",
+  },
+  {
+    name: "Typing Tester",
+    description: "Python-based typing tester with a simple, interactive interface for practice and tracking progress.",
+    liveLink: null,
+    githubLink: "https://github.com/hamzas4011/Typing_Tester",
   }
 ];
 
