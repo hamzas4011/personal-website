@@ -7,19 +7,19 @@ const projects = [
   },
   {
     name: "Anime Explorer",
-    description: "Fullstack web app built where users can explore different anime series.",
+    description: "A fullstack web app for exploring different anime series developed with Next.js, TypeScript, and Tailwind CSS.",
     liveLink: "https://anime-search-explore.vercel.app/",
     githubLink: "https://github.com/hamzas4011/anime-search",
   },
   {
     name: "E-Commerce Website",
-    description: "Fully responsive e-commerce website built with React.js.",
+    description: "A fully responsive e-commerce website built with React.js.",
     liveLink: "https://ecommerce-app-alpha-lake-45.vercel.app",
     githubLink: "https://github.com/hamzas4011/world-view-app",
   },
   {
     name: "World View",
-    description: "Discover countries with this fullstack web app built using Next.js, TypeScript, Tailwind CSS, and API.",
+    description: "Discover countries with this fullstack web app, developed using Next.js, TypeScript, Tailwind CSS, and API integration.",
     liveLink: "https://world-view-seven.vercel.app/",
     githubLink: "https://github.com/hamzas4011/world-view",
   },
@@ -31,19 +31,19 @@ const projects = [
   },
   {
     name: "Konya Restaurant",
-    description: "Vue.js frontend for a fictional Turkish restaurant, linked to a C# API with CRUD.",
+    description: "A Vue.js frontend for a fictional Turkish restaurant, connected to a C# API with CRUD.",
     liveLink: null,
     githubLink: "https://github.com/hamzas4011/konyarestaurant",
   },
   {
     name: "Nintendo Game",
-    description: "Gaming webapp built with React.js. Features game browsing, rating, and CRUD operations via a C# API.",
+    description: "A gaming webapp made with React.js, featuring game browsing, ratings, and CRUD operations via a C# API.",
     liveLink: null,
     githubLink: "https://github.com/hamzas4011/nintendogame",
   },
   {
     name: "Typing Tester",
-    description: "Python-based typing tester with a simple, interactive interface for practice and tracking progress.",
+    description: "A Python-based typing tester with a simple, interactive interface for practice and progress tracking.",
     liveLink: null,
     githubLink: "https://github.com/hamzas4011/Typing_Tester",
   }
