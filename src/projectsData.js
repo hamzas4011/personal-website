@@ -24,10 +24,10 @@ const projects = [
     githubLink: "https://github.com/hamzas4011/din-blomst",
   },
   {
-    name: "Coffee Shop",
-    description: "Coffee shop website built with React.js, creatively showcasing menu and services.",
-    liveLink: "https://coffee-shop-ivory-seven.vercel.app/",
-    githubLink: "https://github.com/hamzas4011/coffee-shop",
+    name: "Local AI Agent",
+    description: "PLACEHOLDER — describe what it does and the tech stack here.",
+    liveLink: null,
+    githubLink: "https://github.com/hamzas4011/local-agent",
   },
   {
     name: "Typing Tester",
