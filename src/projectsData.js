@@ -17,11 +17,11 @@ const projects = [
     liveLink: "https://ecommerce-app-alpha-lake-45.vercel.app",
     githubLink: "https://github.com/hamzas4011/world-view-app",
   },
-   {
-    name: "Calculator App",
-    description: "Responsive calculator built with React.js for basic arithmetic operations.",
-    liveLink: "https://calculator-app-two-beta.vercel.app/",
-    githubLink: "https://github.com/hamzas4011/calculator-app",
+  {
+    name: "Din Blomst",
+    description: "An accessible flower shop website built with React, TypeScript, and Tailwind CSS.",
+    liveLink: "https://din-blomst.vercel.app/",
+    githubLink: "https://github.com/hamzas4011/din-blomst",
   },
   {
     name: "Coffee Shop",
@@ -41,7 +41,7 @@ const projects = [
     liveLink: null,
     githubLink: "https://github.com/hamzas4011/konyarestaurant",
   },
-   {
+  {
     name: "Nintendo Game",
     description: "Gaming webapp built with React.js. Features game browsing, rating, and CRUD operations via a C# API.",
     liveLink: null,
