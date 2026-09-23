@@ -19,19 +19,19 @@ const projects = [
   },
   {
     name: "World View",
-    description: "Discover countries with this fullstack web app, developed using Next.js, TypeScript, Tailwind CSS, and API integration.",
+    description: "Discover countries with this fullstack web app developed using Next.js, TypeScript, Tailwind CSS, and API integration.",
     liveLink: "https://world-view-seven.vercel.app/",
     githubLink: "https://github.com/hamzas4011/world-view",
   },
   {
     name: "Local AI Agent",
-    description: "Local AI agent with tool calling and memory, built with Python, Ollama, and LangChain.",
+    description: "Local AI agent with tool calling and memory built with Python, Ollama, and LangChain.",
     liveLink: null,
     githubLink: "https://github.com/hamzas4011/local-agent",
   },
   {
     name: "Konya Restaurant",
-    description: "A Vue.js frontend for a fictional Turkish restaurant, connected to a C# API with CRUD.",
+    description: "A Vue.js frontend for a fictional Turkish restaurant connected to a C# API with CRUD.",
     liveLink: null,
     githubLink: "https://github.com/hamzas4011/konyarestaurant",
   },
