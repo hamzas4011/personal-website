@@ -6,12 +6,6 @@ const projects = [
     githubLink: "https://github.com/hamzas4011/din-blomst",
   },
   {
-    name: "World View",
-    description: "Discover countries with this fullstack web app built using Next.js, TypeScript, Tailwind CSS, and API.",
-    liveLink: "https://world-view-seven.vercel.app/",
-    githubLink: "https://github.com/hamzas4011/world-view",
-  },
-  {
     name: "Anime Explorer",
     description: "Fullstack web app built where users can explore different anime series.",
     liveLink: "https://anime-search-explore.vercel.app/",
@@ -22,6 +16,12 @@ const projects = [
     description: "Fully responsive e-commerce website built with React.js.",
     liveLink: "https://ecommerce-app-alpha-lake-45.vercel.app",
     githubLink: "https://github.com/hamzas4011/world-view-app",
+  },
+  {
+    name: "World View",
+    description: "Discover countries with this fullstack web app built using Next.js, TypeScript, Tailwind CSS, and API.",
+    liveLink: "https://world-view-seven.vercel.app/",
+    githubLink: "https://github.com/hamzas4011/world-view",
   },
   {
     name: "Local AI Agent",
