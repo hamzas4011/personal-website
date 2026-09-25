@@ -8,7 +8,7 @@ export function Intro() {
       <div className="intro-content">
         <img src={profilePicture} alt="Hamza Simsek" className="profile-pic" />
         <h1>Hi, I'm Hamza Simsek 👋</h1>
-        <h2>👨‍💻 Full-Stack Developer | AI-Agents</h2>
+        <h2>👨‍💻 Full-Stack Developer | AI</h2>
         <p>Building inclusive and user-friendly web applications.</p>
         <div className="intro-buttons">
           <a href="#about" className="intro-button intro-primary-btn">About</a>
