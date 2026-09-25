@@ -15,7 +15,7 @@ export function About() {
       <div className="about-box">
         <h2>About</h2>
         <p>
-          I'm a Full-Stack Developer with a Master's in Applied Computer and IT, specializing in Accessibility & Universal Design.
+          I'm a Full-Stack Developer with a Master's in Applied Computer and IT.
           I love building applications that make technology more inclusive and user-friendly.
         </p>
         <p>
