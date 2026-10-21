@@ -80,7 +80,8 @@
   text-decoration: none;
   transition: all 0.3s ease;
   cursor: pointer;
-  width: 120px;
+  min-width: 130px;
+  white-space: nowrap;
 }
 
 .project-primary-btn {
@@ -120,7 +121,7 @@
   }
 
   .project-button {
-    width: 100px;
+    min-width: 115px;
     font-size: 0.9rem;
     padding: 10px 15px;
   }
@@ -144,7 +145,7 @@
   }
 
   .project-button {
-    width: 95px;
+    min-width: 105px;
     font-size: 0.85rem;
     padding: 8px 12px;
   }
