@@ -1,13 +1,13 @@
 const projects = [
   {  
     name: "Anime Explorer",
-    description: "Anime discovery app with AI-powered recommendations using Claude, built with Next.js, TypeScript, Tailwind CSS and the Jikan API.",
+    description: "Anime discovery app with AI-powered recommendations using Claude AI agent, built with Next.js, TypeScript, Tailwind CSS, and the Jikan API.",
     liveLink: "https://anime-search-explore.vercel.app/",
     githubLink: "https://github.com/hamzas4011/anime-search",
   },  
   {
     name: "Din Blomst",
-    description: "An accessible flower shop with an AI flower assistant that recommends bouquets, built with React, TypeScript, Tailwind CSS and Claude.",
+    description: "An accessible flower shop with an AI flower assistant that recommends bouquets, built with React, TypeScript, and Tailwind CSS.",
     liveLink: "https://din-blomst.vercel.app/",
     githubLink: "https://github.com/hamzas4011/din-blomst",
   },
