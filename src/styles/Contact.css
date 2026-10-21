@@ -74,7 +74,7 @@
 
 @media (max-width: 768px) {
   .contact-box {
-    width: 80%;
+    width: 95%;
   }
 
   .contact h2 {
@@ -100,8 +100,8 @@
   }
 
   .contact-box {
-    width: 70%;
-    padding: 30px;
+    width: 100%;
+    padding: 24px;
   }
 
   .contact h2 {

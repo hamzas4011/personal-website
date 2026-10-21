@@ -15,4 +15,4 @@ Welcome to my personal portfolio! This website showcases my projects, skills, an
 
 ## 🛑 License  
 This project is open-source under the **MIT License**.  
-🔒 **Note:** My personal picture is **covered under this license** and may **not** be copied or used without permission.  
+🔒 **Note:** My personal picture is **not covered under this license** and may **not** be copied or used without permission.  

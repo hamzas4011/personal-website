@@ -1,66 +1,67 @@
-import React from "react";
 import "../styles/Skills.css";
-import { 
-  FaJs, FaHtml5, FaCss3, FaPython, FaReact, FaNodeJs, FaGitAlt, FaAws, 
-  FaDatabase, FaChevronDown, FaMicrosoft, FaServer
+import {
+  FaJs, FaHtml5, FaCss3, FaPython, FaReact, FaNodeJs, FaGitAlt, FaAws,
+  FaDatabase, FaChevronDown, FaMicrosoft
 } from "react-icons/fa";
+import { SiTypescript, SiNextdotjs } from "react-icons/si";
+
+const skillCategories = [
+  {
+    title: "Programming Languages",
+    skills: [
+      { name: "JavaScript", Icon: FaJs, className: "js" },
+      { name: "HTML", Icon: FaHtml5, className: "html" },
+      { name: "CSS", Icon: FaCss3, className: "css" },
+      { name: "Python", Icon: FaPython, className: "python" },
+      { name: "C#", Icon: FaMicrosoft, className: "csharp" },
+      { name: "TypeScript", Icon: SiTypescript, className: "typescript" },
+    ],
+  },
+  {
+    title: "Frameworks & Libraries",
+    skills: [
+      { name: "React.js", Icon: FaReact, className: "react" },
+      { name: "Node.js", Icon: FaNodeJs, className: "nodejs" },
+      { name: "Tkinter", Icon: FaPython, className: "tkinter" },
+      { name: "Pygame", Icon: FaPython, className: "pygame" },
+      { name: ".NET", Icon: FaMicrosoft, className: "dotnet" },
+      { name: "Next.js", Icon: SiNextdotjs, className: "nextjs" },
+    ],
+  },
+  {
+    title: "Development Tools",
+    skills: [
+      { name: "Git", Icon: FaGitAlt, className: "git" },
+      { name: "SQL", Icon: FaDatabase, className: "sql" },
+      { name: "AWS", Icon: FaAws, className: "aws" },
+    ],
+  },
+];
 
 const Skills = () => {
-  const scrollToNextSection = () => {
-    const nextSection = document.getElementById("projects");
-    if (nextSection) {
-      nextSection.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <section id="skills" className="skills">
       <div className="skills-box">
         <h2>Skills</h2>
-        
-        <div className="skills-category">
-          <h3>Programming Languages</h3>
-          <div className="skills-list">
-            <div className="skill-item"><FaJs className="skill-icon js" /> <span>JavaScript</span></div>
-            <div className="skill-item"><FaHtml5 className="skill-icon html" /> <span>HTML</span></div>
-            <div className="skill-item"><FaCss3 className="skill-icon css" /> <span>CSS</span></div>
-            <div className="skill-item"><FaPython className="skill-icon python" /> <span>Python</span></div>
-            <div className="skill-item"><FaMicrosoft className="skill-icon csharp" /> <span>C#</span></div>
-            <div className="skill-item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" 
-                   alt="TypeScript Logo" className="skill-icon typescript-img" />
-              <span>TypeScript</span>
-            </div>
-          </div>
-        </div>
 
-        <div className="skills-category">
-          <h3>Frameworks & Libraries</h3>
-          <div className="skills-list">
-            <div className="skill-item"><FaReact className="skill-icon react" /> <span>React.js</span></div>
-            <div className="skill-item"><FaNodeJs className="skill-icon nodejs" /> <span>Node.js</span></div>
-            <div className="skill-item"><FaPython className="skill-icon tkinter" /> <span>Tkinter</span></div>
-            <div className="skill-item"><FaPython className="skill-icon pygame" /> <span>Pygame</span></div>
-            <div className="skill-item"><FaMicrosoft className="skill-icon dotnet" /> <span>.NET</span></div>
-            <div className="skill-item nextjs-item">
-              <span className="nextjs-icon">Next.js</span>
-            </div>
+        {skillCategories.map(({ title, skills }) => (
+          <div key={title} className="skills-category">
+            <h3>{title}</h3>
+            <ul className="skills-list">
+              {skills.map(({ name, Icon, className }) => (
+                <li key={name} className="skill-item">
+                  <Icon className={`skill-icon ${className}`} aria-hidden="true" />
+                  <span>{name}</span>
+                </li>
+              ))}
+            </ul>
           </div>
-        </div>
-
-        <div className="skills-category">
-          <h3>Development Tools</h3>
-          <div className="skills-list">
-            <div className="skill-item"><FaGitAlt className="skill-icon git" /> <span>Git</span></div>
-            <div className="skill-item"><FaDatabase className="skill-icon sql" /> <span>SQL</span></div>
-            <div className="skill-item"><FaAws className="skill-icon aws" /> <span>AWS</span></div>
-          </div>
-        </div>
+        ))}
       </div>
 
-      <div className="scroll-down" onClick={scrollToNextSection}>
-        <FaChevronDown className="scroll-icon" />
-      </div>
+      <a href="#projects" className="scroll-down" aria-label="Scroll to Projects section">
+        <FaChevronDown className="scroll-icon" aria-hidden="true" />
+      </a>
     </section>
   );
 };

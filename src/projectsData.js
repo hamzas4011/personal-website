@@ -1,13 +1,13 @@
 const projects = [
   {  
     name: "Anime Explorer",
-    description: "A fullstack web app for exploring different anime series developed with Next.js, TypeScript, Tailwind CSS, and API.",
+    description: "Anime discovery app with AI-powered recommendations using Claude, built with Next.js, TypeScript, Tailwind CSS and the Jikan API.",
     liveLink: "https://anime-search-explore.vercel.app/",
     githubLink: "https://github.com/hamzas4011/anime-search",
   },  
   {
     name: "Din Blomst",
-    description: "An accessible flower shop website built with React, TypeScript, and Tailwind CSS.",
+    description: "An accessible flower shop with an AI flower assistant that recommends bouquets, built with React, TypeScript, Tailwind CSS and Claude.",
     liveLink: "https://din-blomst.vercel.app/",
     githubLink: "https://github.com/hamzas4011/din-blomst",
   },
@@ -15,11 +15,11 @@ const projects = [
     name: "E-Commerce Website",
     description: "A fully responsive e-commerce website built with React.js.",
     liveLink: "https://ecommerce-app-alpha-lake-45.vercel.app",
-    githubLink: "https://github.com/hamzas4011/world-view-app",
+    githubLink: "https://github.com/hamzas4011/ecommerce-app",
   },
   {
     name: "World View",
-    description: "Discover countries with this fullstack web app developed using Next.js, TypeScript, Tailwind CSS, and API integration.",
+    description: "Discover countries with this fullstack web app developed using Next.js, TypeScript, Tailwind CSS, and API.",
     liveLink: "https://world-view-seven.vercel.app/",
     githubLink: "https://github.com/hamzas4011/world-view",
   },

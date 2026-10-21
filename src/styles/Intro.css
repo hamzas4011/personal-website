@@ -29,8 +29,10 @@
   margin-top: 10px;
 }
 
-.intro h2 {
+.intro .intro-subtitle {
   font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
   margin-top: 10px;
 }
 
@@ -61,12 +63,12 @@
 }
 
 .intro-primary-btn {
-  background-color: #00d4ff;
+  background-color: #0077b6;
   color: white;
 }
 
 .intro-primary-btn:hover {
-  background-color: #0099cc;
+  background-color: #005f8f;
 }
 
 @media (max-width: 600px) {
@@ -74,7 +76,7 @@
     font-size: 2rem;
   }
 
-  .intro h2 {
+  .intro .intro-subtitle {
     font-size: 1.3rem;
   }
 

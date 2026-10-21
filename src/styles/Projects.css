@@ -12,7 +12,7 @@
 
 .projects-content {
   max-width: 900px;
-  width: 70%;
+  width: 90%;
 }
 
 .projects h2 {
@@ -23,11 +23,12 @@
 }
 
 .projects-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 30px;
-  max-width: 1000px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .project-card {
@@ -35,7 +36,6 @@
   padding: 20px;
   border-radius: 14px;
   box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.1);
-  width: 280px;
   min-height: 230px;
   display: flex;
   flex-direction: column;
@@ -84,28 +84,30 @@
 }
 
 .project-primary-btn {
-  background-color: #00d4ff;
+  border: 2px solid #0077b6;
+  background-color: #0077b6;
   color: white;
 }
 
 .project-primary-btn:hover {
-  background-color: #0099cc;
+  border-color: #005f8f;
+  background-color: #005f8f;
 }
 
 .project-secondary-btn {
-  border: 2px solid #00d4ff;
-  color: #00d4ff;
+  border: 2px solid #0077b6;
+  color: #0077b6;
   background-color: white;
 }
 
 .project-secondary-btn:hover {
-  background-color: #00d4ff;
+  background-color: #0077b6;
   color: white;
 }
 
 @media (max-width: 768px) {
   .projects-content {
-    width: 80%;
+    width: 95%;
   }
 
   .projects h2 {
@@ -113,11 +115,8 @@
   }
 
   .projects-list {
+    grid-template-columns: 1fr;
     gap: 20px;
-  }
-
-  .project-card {
-    width: 70%;
   }
 
   .project-button {
@@ -133,7 +132,7 @@
   }
 
   .projects-content {
-    width: 90%;
+    width: 100%;
   }
 
   .projects h2 {
@@ -142,10 +141,6 @@
 
   .projects-list {
     gap: 15px;
-  }
-
-  .project-card {
-    width: 90%;
   }
 
   .project-button {
