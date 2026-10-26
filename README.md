@@ -1,6 +1,6 @@
 # 🚀 Personal Portfolio - Hamza Simsek
 
-![portfolio-pic](https://github.com/user-attachments/assets/22bcea10-3bfb-47cd-b69e-935e8572bca0)
+<img width="800" height="700" alt="Skjermbilde 2026-10-26 225448" src="https://github.com/user-attachments/assets/3af56add-e881-441b-b4f5-896e14a36e6d" />
 
 Welcome to my personal portfolio! This website showcases my projects, skills, and experience. Built with a focus on **modern design, accessibility, and performance**.
 
